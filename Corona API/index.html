@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona API</title>
+    <!-- style file attachment -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- bootstrap file attachment -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- bootstrap icon file attachment -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- font file attachment -->
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+
+</head>
+
+<body>
+
+    <div class="banner"></div>
+
+    <div class="corona-box d-flex justify-content-between p-4">
+        <div class="col-6 me-4">
+            <div class="corona-left">
+                
+                <div id="coronaDetail">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <input type="text" id="stats" placeholder="Enter state name" class="mb-4"
+                style="padding:5px; border-radius: 10px; border: none;">
+            <button onclick="covidinfo()">Check Detail</button>
+            <div class="row mt-4">
+                <div id="covidstats"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
